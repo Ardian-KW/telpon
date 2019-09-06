@@ -16,7 +16,7 @@ read mrrm
 if [ $mrrm = 1 ] || [ $mrrm = 1 ]
 then
 clear
-echo "\033[34;1m"
+echo "\033[32;1m"
 figlet "Ardian Kw"
 php 1.php
 fi
