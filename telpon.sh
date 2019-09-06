@@ -10,11 +10,11 @@ echo "contact: kambingtua700@gmail.com"
 sleep 1
 echo " When Your Broke My Heart We Can Broke Your Security"
 sleep 1
-echo "Ketik ok Untuk Lanjut"
+echo "Ketik 1 Untuk Lanjut"
 read mrrm
-if [ $mrrm = ok ] || [ $mrrm = ok ]
+if [ $mrrm = 1 ] || [ $mrrm = 1 ]
 then
 clear
 figlet "TELPON"
-php ok.php
+php 1.php
 fi
