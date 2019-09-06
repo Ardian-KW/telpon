@@ -11,12 +11,12 @@ echo "\033[32;1m contact: kambingtua700@gmail.com"
 sleep 1
 echo "\033[34;1m When Your Broke My Heart We Can Broke Your Security"
 sleep 1
-echo "Ketik ok Untuk Lanjut"
+echo " Ketik 1 Untuk Lanjut"
 read mrrm
-if [ $mrrm = ok ] || [ $mrrm = ok ]
+if [ $mrrm = 1 ] || [ $mrrm = 1 ]
 then
 clear
 echo "\033[34;1m"
-figlet "Fake Call"
-php ok.php
+figlet "Ardian Kw"
+php 1.php
 fi
