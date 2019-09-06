@@ -1,20 +1,22 @@
 #!/system/xbin/bash
 clear
-figlet "TELPON"
+echo "\033[36;1m"
+figlet "Fake Call"
 sleep 1
-echo "Fake TELPON Tokopedia"
+echo "\033[31;1m Fake Call Tokopedia"
 sleep 1
-echo "Author: Ardian Kw"
+echo "\033[33;1m Author: Ardian Kw"
 sleep 1
-echo "contact: kambingtua700@gmail.com"
+echo "\033[32;1m contact: kambingtua700@gmail.com"
 sleep 1
-echo " When Your Broke My Heart We Can Broke Your Security"
+echo "\033[34;1m When Your Broke My Heart We Can Broke Your Security"
 sleep 1
-echo "Ketik 1 Untuk Lanjut"
+echo "Ketik ok Untuk Lanjut"
 read mrrm
-if [ $mrrm = 1 ] || [ $mrrm = 1 ]
+if [ $mrrm = ok ] || [ $mrrm = ok ]
 then
 clear
-figlet "TELPON"
-php 1.php
+echo "\033[34;1m"
+figlet "Fake Call"
+php ok.php
 fi
