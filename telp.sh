@@ -4,7 +4,7 @@ echo "\033[32;1m"
 figlet "Ardian Kw"
 sleep 1
 echo "\033[36;1m"
-fighlet "Telpon Palsu"
+figlet "Telpon Palsu"
 sleep 1
 echo "\033[31;1m Telpon Palsu Tokopedia"
 sleep 1
